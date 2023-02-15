@@ -1,0 +1,292 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgba(245, 245, 245, 0.349);
+}
+
+.navbar ul {
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+h1 {
+    position: absolute;
+    padding: 10px;
+    color: rgba(0, 0, 255, 0.719);
+    padding-left: 120px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    color: #232323;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #6592e6;
+    text-decoration: underline;
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .hello {
+    margin-left: 120px;
+    font-size: xx-large;
+    position: absolute;
+    bottom: 45%;
+}
+
+.container .hello h2 {
+    color: #232323;
+    line-height: 80px;
+}
+
+.container .hello p {
+    line-height: 45px;
+}
+
+.container .hello button {
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+    color: antiquewhite;
+    background-color: #6592e6;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.hello button:focus {
+    color: #6592e6;
+}
+
+.hello button:hover {
+    background-color: rgba(15, 235, 45, 0.644);
+}
+
+#work {
+    margin-top: 120px;
+    margin-left: 110px;
+    line-height: 50px;
+}
+
+#work>p {
+    color: blue;
+    font-weight: bold;
+
+}
+
+#work h2 {
+    font-size: xx-large;
+    font-size: 2.7rem;
+}
+
+#work button {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    background-color: #0069cd;
+    border: 1px solid gray;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+#work button:hover {
+    background-color: rgba(15, 235, 45, 0.644);
+
+}
+
+#work img {
+    width: 15%;
+    position: absolute;
+    left: 40%;
+}
+
+.product {
+    position: absolute;
+    left: 72%;
+    top: 132%;
+    line-height: 1.90;
+}
+
+.img>img {
+    position: absolute;
+    left: 70%;
+}
+
+.develop {
+    line-height: 1.90;
+    letter-spacing: normal;
+    margin-left: 480px;
+    position: absolute;
+    top: 132%;
+}
+
+.develop h3,
+h4 {
+    margin-top: 70px;
+    font-size: x-large;
+}
+
+.develop>img {
+    margin-top: 560px;
+    width: 40%;
+}
+
+.product>h3 {
+    margin-top: 105px;
+    font-size: x-large;
+}
+
+.product>p {
+    line-height: 1.75;
+    letter-spacing: normal;
+}
+
+
+#team {
+    margin-top: 450px;
+    margin-left: 490px;
+    font-size: xx-large;
+    color: green;
+}
+
+.para {
+    margin-left: 530px;
+    color: #0069cd;
+}
+
+.para>p {
+    color: #232323;
+    font-weight: bold;
+}
+
+.para>h6 {
+    font-size: larger;
+}
+
+#contact {
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+#contact>h6 {
+    font-size: xx-large;
+    color: green;
+}
+
+#contact>p {
+    margin-left: 15px;
+    font-weight: bold;
+    color: #0069cd;
+}
+
+
+.para>img {
+    margin-left: 70px;
+}
+
+.p {
+    color: #0069cd;
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.point {
+    line-height: 1.75;
+    font-weight: bold;
+    position: absolute;
+}
+
+.point i {
+    width: 25px;
+    color: #0069cd;
+}
+
+.point span {
+    padding-left: 22px;
+    font-weight: lighter;
+}
+
+.message {
+    margin-left: 520px;
+    margin-bottom: 100px;
+}
+
+.message input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #0069cd;
+}
+
+.message textarea {
+    width: 500px;
+    box-shadow: 5px 5px 10px #0069cd;
+
+}
+
+.last h4 {
+    color: #0069cd;
+
+}
+
+.last p {
+    line-height: 1.75;
+}
+
+.last i {
+    width: 40px;
+}
+
+.last .second {
+    margin-left: 500px;
+    position: absolute;
+}
+
+.last h5 {
+    margin-left: 500px;
+    font-size: x-large;
+}
+
+.me {
+    float: right;
+    margin-right: 100px;
+    border-bottom: 1px solid gray;
+}
+
+.me>span {
+    font-size: large;
+    font-weight: lighter;
+    color: black;
+}
+
+.me a {
+    text-decoration: none;
+}
